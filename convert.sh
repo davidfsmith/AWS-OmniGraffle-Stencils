@@ -1,6 +1,22 @@
 #!/bin/sh
-for f in *.eps
-do
-  echo "Processing $f"
-  epstopdf "$f"
-done
+
+if [ "$#" -eq 1 ]
+then
+  if [ -d $1 ]
+  then
+
+    for f in ./$1/**/*.eps
+    do
+      echo "Processing $f"
+      epstopdf "$f"
+    done
+
+  else
+    echo "Directory $1 does not exist"
+    exit 1
+  fi
+
+else
+  echo "Source directory not supplied"
+  exit 1
+fi
