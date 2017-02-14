@@ -11,6 +11,8 @@ then
       epstopdf "$f"
     done
 
+    find $1 \! -name '*.pdf' -delete
+
   else
     echo "Directory $1 does not exist"
     exit 1
