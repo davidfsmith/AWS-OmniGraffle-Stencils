@@ -5,12 +5,17 @@ If use OmniGraffle and AWS - these stencils are for you.
 
 Omnigraffle compatible versions of the [AWS simple icons](https://aws.amazon.com/architecture/icons/).
 
-Last updated using *AWS_Simple_Icons_EPS-SVG_v17.1.19*
+Last updated using *PNG,+SVG,+EPS_17.10.18.zip*
+
+# Installing epstopdf
+
+	brew install mactex
+	
+Then install the Ghostscript package from [MacTex packages](http://www.tug.org/mactex/morepackages.html)
 
 # Steps
 
 * Download the latest AWS icons and unzip into the same directory as `convert.sh`
-* Install `epstopdf` from [CTAN](http://ctan.org/pkg/epstopdf)
 * run `./convert.sh <unzipped AWS icons directory>`
 
 Time passes, but you should find that you'll have just the converted PDF files left in the AWS icons directory.
