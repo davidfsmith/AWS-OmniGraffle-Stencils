@@ -9,7 +9,7 @@ Last updated using *PNG,+SVG,+EPS_17.10.18.zip*
 
 # Installing epstopdf
 
-	brew install mactex
+	brew cask install mactex
 	
 Then install the Ghostscript package from [MacTex packages](http://www.tug.org/mactex/morepackages.html)
 
