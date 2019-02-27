@@ -8,7 +8,7 @@ then
     for f in ./$1/**/*.eps
     do
       echo "Processing $f"
-      epstopdf "$f"
+      /usr/local/bin/epstopdf "$f"
     done
 
     find $1 \! -name '*.pdf' -delete
