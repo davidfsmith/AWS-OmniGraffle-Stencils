@@ -11,6 +11,24 @@ Only the light background icons have been converted.  Last updated using: [AWS-A
 ## 18.02.22
 Last updated using: [PNG,+SVG,+EPS_18.02.22.zip](https://s3-us-west-2.amazonaws.com/awswebanddesign/Architecture+Icons/AWS-Arch-Icon-Sets_Feb-18/PNG%2C+SVG%2C+EPS_18.02.22.zip)
 
+# Using
+
+There are two ways to install stencils into Omnigraffle (thanks to [@voxpelli](https://twitter.com/voxpelli/status/1105536267352264705) for pointing out I don't include instructions on how to use the stencil files.)
+
+## Installing a stencil
+
+1. Double click on the stencil file, it will open in Omnigraffle
+2. You can then move the stencil to make it available for future use
+
+## Installing all the stencils
+
+1. Use terminal to open the Omnigraffle stencil directory in Finder (for Omnigraffle 7.x) `open $HOME/Library/Containers/com.omnigroup.OmniGraffle7.MacAppStore/Data/Library/Application\ Support/The\ Omni\ Group/OmniGraffle/Stencils`
+2. Create a directory called `AWS` or whatever works for you.
+3. Copy the stencil files corresponding to the version of the icons you want to use into the `AWS` folder you just created.
+4. Open Omnigraffle and create awesome diagrams using the AWS Architecture Icons ;-)
+
+Any problems, ommissions ot suggestions then feel free to either raise an [issue](https://github.com/davidfsmith/AWS-OmniGraffle-Stencils/issues) or better yet, fork the repo, make the change and open a PR.
+
 # Converting Icons
 
 ## Installing epstopdf
