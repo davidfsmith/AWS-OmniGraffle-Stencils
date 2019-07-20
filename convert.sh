@@ -419,7 +419,7 @@ if [ ! -f meta.txt ]; then
 fi
 
 if ! [ -d "$AWS_DIR" ]; then
-    echo "error: $AWS_DIR is no a directory"
+    echo "error: $AWS_DIR is not a directory"
     exit 1
 fi
 
