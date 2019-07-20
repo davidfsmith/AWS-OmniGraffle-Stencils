@@ -6,9 +6,7 @@ If use OmniGraffle and AWS - these stencils are for you.
 Omnigraffle compatible versions of the [AWS simple icons](https://aws.amazon.com/architecture/icons/).
 
 ## 19.05.21 Icons
-
-## 19.02.07 Icons
-Only the light background icons have been converted.  Last updated using: [AWS-Architecture-Icons_EPS_20190207](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_EPS_20190207.2b615daa2f47347ca46e67c56bd35be79cea5bee.zip)
+Light background icons have been converted.  Updated using [AWS-Architecture-Icons_EPS_20190521](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_EPS_20190521.f77c8509c6bbaa17b8e508e11b507198d72d2f0b.zip)
 
 ## 18.02.22 Icons
 Last updated using: [PNG,+SVG,+EPS_18.02.22.zip](https://s3-us-west-2.amazonaws.com/awswebanddesign/Architecture+Icons/AWS-Arch-Icon-Sets_Feb-18/PNG%2C+SVG%2C+EPS_18.02.22.zip)
