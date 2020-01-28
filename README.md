@@ -53,6 +53,8 @@ Time passes....
 
 For images where there is no meta data you will need to update the `meta.txt` with the additional information.
 
+**Note:** The script is currently failing to automagically create valid stencil files and needs a good talking to, the 19.10.31 set were created manaully.
+
 # Finally
 
 Massive thanks to [azuenko](https://github.com/azuenko) for the automation magic ;-)
