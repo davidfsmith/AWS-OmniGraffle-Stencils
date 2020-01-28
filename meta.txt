@@ -28,20 +28,18 @@ _Group Icons/EC2-instance-contents: name: EC2 instance contents
 _Group Icons/Elastic-Beanstalk-container: name: Elastic Beanstalk container
 _Group Icons/Region: name: Region
 _Group Icons/Server-contents: name: Server contents
-_Group Icons/Spot-Fleet: name: Spot Fleet
+_Group Icons/Spot-fleet: name: Spot Fleet
 _Group Icons/Virtual-private-cloud-VPC: name: VPC
 _Group Icons/VPC-subnet-private: name: Private Subnet
 _Group Icons/VPC-subnet-public: name: Public Subnet
 Analytics/Amazon-Athena: name: Amazon Athena
 Analytics/Amazon-Athena: url: https://aws.amazon.com/athena/
-Analytics/Amazon-CloudSearch: name: Amazon CloudSearch
-Analytics/Amazon-CloudSearch: url: https://aws.amazon.com/cloudsearch/
 Analytics/Amazon-CloudSearch_Search-documents: name: Amazon CloudSearch - Search Documents
 Analytics/Amazon-CloudSearch_Search-documents: url: https://aws.amazon.com/cloudsearch/
+Analytics/Amazon-CloudSearch: name: Amazon CloudSearch
+Analytics/Amazon-CloudSearch: url: https://aws.amazon.com/cloudsearch/
 Analytics/Amazon-Elasticsearch-Service: name: Amazon Elasticsearch Service
 Analytics/Amazon-Elasticsearch-Service: url: https://aws.amazon.com/elasticsearch-service/
-Analytics/Amazon-EMR: name: Amazon EMR
-Analytics/Amazon-EMR: url: https://aws.amazon.com/emr/
 Analytics/Amazon-EMR_Cluster: name: Amazon EMR - Cluster
 Analytics/Amazon-EMR_Cluster: url: https://aws.amazon.com/emr/
 Analytics/Amazon-EMR_EMR-engine-MapR-M3: name: Amazon EMR - EMR Engine MapR M3
@@ -52,8 +50,10 @@ Analytics/Amazon-EMR_EMR-engine-MapR-M7: name: Amazon EMR - EMR Engine MapR M7
 Analytics/Amazon-EMR_EMR-engine-MapR-M7: url: https://aws.amazon.com/emr/
 Analytics/Amazon-EMR_EMR-engine: name: Amazon EMR - EMR Engine
 Analytics/Amazon-EMR_EMR-engine: url: https://aws.amazon.com/emr/
-Analytics/Amazon-EMR_HDFS-cluster: name: Amazon EMR - Cluster
+Analytics/Amazon-EMR_HDFS-cluster: name: Amazon EMR - HDFS Cluster
 Analytics/Amazon-EMR_HDFS-cluster: url: https://aws.amazon.com/emr/
+Analytics/Amazon-EMR: name: Amazon EMR
+Analytics/Amazon-EMR: url: https://aws.amazon.com/emr/
 Analytics/Amazon-Kinesis-Data-Analytics: name: Amazon Kinesis - Data Analytics
 Analytics/Amazon-Kinesis-Data-Analytics: url: https://aws.amazon.com/kinesis/
 Analytics/Amazon-Kinesis-Data-Firehose: name: Amazon Kinesis - Data Firehose
@@ -68,46 +68,53 @@ Analytics/Amazon-Managed-Streaming-for-Kafka: name: Amazon Managed Streaming for
 Analytics/Amazon-Managed-Streaming-for-Kafka: url: https://aws.amazon.com/msk/
 Analytics/Amazon-Quicksight: name: Amazon Quicksight
 Analytics/Amazon-Quicksight: url: https://aws.amazon.com/quicksight/
-Analytics/Amazon-Redshift: name: Amazon Redshift
-Analytics/Amazon-Redshift: url: https://aws.amazon.com/redshift/
 Analytics/Amazon-Redshift_Dense-compute-node: name: Amazon Redshift - Dense Compute Node
 Analytics/Amazon-Redshift_Dense-compute-node: url: https://aws.amazon.com/redshift/
 Analytics/Amazon-Redshift_Dense-storage-node: name: Amazon Redshift - Dense Storage Node
 Analytics/Amazon-Redshift_Dense-storage-node: url: https://aws.amazon.com/redshift/
+Analytics/Amazon-Redshift: name: Amazon Redshift
+Analytics/Amazon-Redshift: url: https://aws.amazon.com/redshift/
 Analytics/Analytics: name: Amazon Analytics
 Analytics/Analytics: url: https://aws.amazon.com/big-data/datalakes-and-analytics/
+Analytics/AWS-Data-lake_Resource-icon: name: AWS datalake
+Analytics/AWS-Data-lake_Resource-icon: url: https://aws.amazon.com/solutions/data-lake-solution/
 Analytics/AWS-Data-Pipeline: name: AWS Data Pipeline
 Analytics/AWS-Data-Pipeline: url: https://aws.amazon.com/datapipeline/
-Analytics/AWS-Glue: name: AWS Glue
-Analytics/AWS-Glue: url: https://aws.amazon.com/glue/
 Analytics/AWS-Glue_Crawlers: name: AWS Glue - Crawlers
 Analytics/AWS-Glue_Crawlers: url: https://aws.amazon.com/glue/
 Analytics/AWS-Glue_Data-catalog: name: AWS Glue - Data Catalog
 Analytics/AWS-Glue_Data-catalog: url: https://aws.amazon.com/glue/
+Analytics/AWS-Glue: name: AWS Glue
+Analytics/AWS-Glue: url: https://aws.amazon.com/glue/
 Analytics/AWS-Lake-Formation: name: AWS Lake Formation
 Analytics/AWS-Lake-Formation: url: https://aws.amazon.com/lake-formation/
-Application Integration/Amazon-AppSync: name: Amazon AWS AppSync
+Application Integration/Amazon-AppSync: name: AWS AppSync
 Application Integration/Amazon-AppSync: url: https://aws.amazon.com/appsync/
+Application Integration/Amazon-EventBridge: name: Amazon EventBridge
+Application Integration/Amazon-EventBridge: url: https://aws.amazon.com/eventbridge/
 Application Integration/Amazon-MQ: name: Amazon MQ
 Application Integration/Amazon-MQ: url: https://aws.amazon.com/amazon-mq/
-Application Integration/Amazon-Simple-Notification-Service-SNS: name: Amazon SNS
-Application Integration/Amazon-Simple-Notification-Service-SNS: url: https://aws.amazon.com/sns/
 Application Integration/Amazon-Simple-Notification-Service-SNS_Email-Notification: name: Amazon SNS - Email
 Application Integration/Amazon-Simple-Notification-Service-SNS_Email-Notification: url: https://aws.amazon.com/sns/
 Application Integration/Amazon-Simple-Notification-Service-SNS_HTTP-Notification: name: Amazon SNS - HTTP
 Application Integration/Amazon-Simple-Notification-Service-SNS_HTTP-Notification: url: https://aws.amazon.com/sns/
 Application Integration/Amazon-Simple-Notification-Service-SNS_Topic: name: Amazon SNS - Topic
 Application Integration/Amazon-Simple-Notification-Service-SNS_Topic: url: https://aws.amazon.com/sns/
-Application Integration/Amazon-Simple-Queue-Service-SQS: name: Amazon SQS
-Application Integration/Amazon-Simple-Queue-Service-SQS: url: https://aws.amazon.com/sqs/
+Application Integration/Amazon-Simple-Notification-Service-SNS: name: Amazon SNS
+Application Integration/Amazon-Simple-Notification-Service-SNS: url: https://aws.amazon.com/sns/
 Application Integration/Amazon-Simple-Queue-Service-SQS_Message: name: Amazon SQS - Message
 Application Integration/Amazon-Simple-Queue-Service-SQS_Message: url: https://aws.amazon.com/sqs/
 Application Integration/Amazon-Simple-Queue-Service-SQS_Queue: name: Amazon SQS - Queue
 Application Integration/Amazon-Simple-Queue-Service-SQS_Queue: url: https://aws.amazon.com/sqs/
+Application Integration/Amazon-Simple-Queue-Service-SQS: name: Amazon SQS
+Application Integration/Amazon-Simple-Queue-Service-SQS: url: https://aws.amazon.com/sqs/
+Application Integration/Application-Integration_Event_Resource: name: Amazon Application Integration Resource
+Application Integration/Application-Integration_Event_Resource: url: https://aws.amazon.com/products/application-integration/
 Application Integration/Application-Integration: name: Amazon Application Integration
 Application Integration/Application-Integration: url: https://aws.amazon.com/products/application-integration/
 Application Integration/AWS-Step-Functions: name: AWS Step Functions
 Application Integration/AWS-Step-Functions: url: https://aws.amazon.com/step-functions/
+Application Integration/Console-Mobile-Application: name: Console Mobile Application
 AR & VR/Amazon-Sumerian: name: Amazon Sumerian
 AR & VR/Amazon-Sumerian: url: https://aws.amazon.com/sumerian/
 AR & VR/AR-VR: name: Amazon AR & VR
@@ -126,6 +133,8 @@ Blockchain/Amazon-Managed-Blockchain: name: Amazon Managed Blockchain
 Blockchain/Amazon-Managed-Blockchain: url: https://aws.amazon.com/blockchain/
 Blockchain/Amazon-Quantum-Ledger-Database-QLDB: name: Amazon Quantum Ledger Database QLDB
 Blockchain/Amazon-Quantum-Ledger-Database-QLDB: url: https://aws.amazon.com/blockchain/
+Blockchain/Blockchain_Resource-Icon: name: Blockchain
+Blockchain/Blockchain_Resource-Icon: url: https://aws.amazon.com/blockchain/
 Blockchain/Blockchain: name: Blockchain
 Blockchain/Blockchain: url: https://aws.amazon.com/blockchain/
 Business Applications/Alexa-For-Business: name: Alexa for Business
@@ -182,8 +191,8 @@ Compute/_Instances/Amazon-EC2_R5-Instance: name: Amazon EC2 R5 Instance
 Compute/_Instances/Amazon-EC2_R5-Instance: url: https://aws.amazon.com/ec2/instance-types/
 Compute/_Instances/Amazon-EC2_R5a-Instance: name: Amazon EC2 R5a Instance
 Compute/_Instances/Amazon-EC2_R5a-Instance: url: https://aws.amazon.com/ec2/instance-types/
-Compute/_Instances/Amazon-EC2_Spot-Instance: name: Amazon EC2 Spot Instance
-Compute/_Instances/Amazon-EC2_Spot-Instance: url: https://aws.amazon.com/ec2/instance-types/
+Compute/_Instances/Amazon-EC2_Spot-instance: name: Amazon EC2 Spot Instance
+Compute/_Instances/Amazon-EC2_Spot-instance: url: https://aws.amazon.com/ec2/instance-types/
 Compute/_Instances/Amazon-EC2_T2-Instance: name: Amazon EC2 T2 Instance
 Compute/_Instances/Amazon-EC2_T2-Instance: url: https://aws.amazon.com/ec2/instance-types/
 Compute/_Instances/Amazon-EC2_T3-Instance: name: Amazon EC2 T3 Instance
@@ -196,16 +205,8 @@ Compute/_Instances/Amazon-EC2_X1e-Instance: name: Amazon EC2 X1e Instance
 Compute/_Instances/Amazon-EC2_X1e-Instance: url: https://aws.amazon.com/ec2/instance-types/
 Compute/_Instances/Amazon-EC2_z1d-Instance: name: Amazon EC2 z1d Instance
 Compute/_Instances/Amazon-EC2_z1d-Instance: url: https://aws.amazon.com/ec2/instance-types/
-Compute/Amazon-EC2-Auto-Scaling: name: Amazon EC2 Auto Scaling
-Compute/Amazon-EC2-Auto-Scaling: url: https://aws.amazon.com/ec2/autoscaling/
-Compute/Amazon-EC2-Container-Registry: name: Amazon EC2 Container Registry
-Compute/Amazon-EC2-Container-Registry: url: https://aws.amazon.com/ecr/
-Compute/Amazon-EC2-Container-Registry_Image: name: Amazon EC2 Container Registry - Image
-Compute/Amazon-EC2-Container-Registry_Image: url: https://aws.amazon.com/ecr/
-Compute/Amazon-EC2-Container-Registry_Registry: name: Amazon EC2 Container Registry - Registry
-Compute/Amazon-EC2-Container-Registry_Registry: url: https://aws.amazon.com/ecr/
-Compute/Amazon-EC2: name: Amazon EC2
-Compute/Amazon-EC2: url: https://aws.amazon.com/ec2/
+Compute/Amazon-Application-Auto-Scaling: name: Amazon Applicaiton Auto Scaling
+Compute/Amazon-Application-Auto-Scaling: url: https://aws.amazon.com/autoscaling/
 Compute/Amazon-EC2_AMI: name: Amazon EC2 - AMI
 Compute/Amazon-EC2_AMI: url: https://aws.amazon.com/ec2/
 Compute/Amazon-EC2_Auto-Scaling: name: Amazon EC2 Auto Scaling
@@ -214,10 +215,16 @@ Compute/Amazon-EC2_Elastic-IP-Address: name: Amazon EC2 Elastic IP Address
 Compute/Amazon-EC2_Elastic-IP-Address: url: https://aws.amazon.com/ec2/
 Compute/Amazon-EC2_Rescue: name: Amazon EC2 Rescue
 Compute/Amazon-EC2_Rescue: url: https://aws.amazon.com/ec2/
-Compute/Amazon-Elastic-Container-Service-for-Kubernetes: name: Amazon Elastic Container Service for Kubernetes
-Compute/Amazon-Elastic-Container-Service-for-Kubernetes: url: https://aws.amazon.com/eks/
-Compute/Amazon-Elastic-Container-Service: name: Amazon Elastic Container Service
-Compute/Amazon-Elastic-Container-Service: url: https://aws.amazon.com/ecs/
+Compute/Amazon-EC2-Auto-Scaling: name: Amazon EC2 Auto Scaling
+Compute/Amazon-EC2-Auto-Scaling: url: https://aws.amazon.com/ec2/autoscaling/
+Compute/Amazon-EC2-Container-Registry_Image: name: Amazon EC2 Container Registry - Image
+Compute/Amazon-EC2-Container-Registry_Image: url: https://aws.amazon.com/ecr/
+Compute/Amazon-EC2-Container-Registry_Registry: name: Amazon EC2 Container Registry - Registry
+Compute/Amazon-EC2-Container-Registry_Registry: url: https://aws.amazon.com/ecr/
+Compute/Amazon-EC2-Container-Registry: name: Amazon EC2 Container Registry
+Compute/Amazon-EC2-Container-Registry: url: https://aws.amazon.com/ecr/
+Compute/Amazon-EC2: name: Amazon EC2
+Compute/Amazon-EC2: url: https://aws.amazon.com/ec2/
 Compute/Amazon-Elastic-Container-Service_Container1: name: Amazon Elastic Container Service - Service Container1
 Compute/Amazon-Elastic-Container-Service_Container1: url: https://aws.amazon.com/ecs/
 Compute/Amazon-Elastic-Container-Service_Container2: name: Amazon Elastic Container Service - Service Container2
@@ -228,50 +235,79 @@ Compute/Amazon-Elastic-Container-Service_Service: name: Amazon Elastic Container
 Compute/Amazon-Elastic-Container-Service_Service: url: https://aws.amazon.com/ecs/
 Compute/Amazon-Elastic-Container-Service_Task: name: Amazon Elastic Container Service - Task
 Compute/Amazon-Elastic-Container-Service_Task: url: https://aws.amazon.com/ecs/
+Compute/Amazon-Elastic-Container-Service-for-Kubernetes: name: Amazon Elastic Container Service for Kubernetes
+Compute/Amazon-Elastic-Container-Service-for-Kubernetes: url: https://aws.amazon.com/eks/
+Compute/Amazon-Elastic-Container-Service: name: Amazon Elastic Container Service
+Compute/Amazon-Elastic-Container-Service: url: https://aws.amazon.com/ecs/
+Compute/Amazon-Elastic-Kubernetes-Service: name: Amazon Elastic Kubernetes Service
+Compute/Amazon-Elastic-Kubernetes-Service: url: https://aws.amazon.com/eks/
 Compute/Amazon-Lightsail: name: Amazon Lightsail
 Compute/Amazon-Lightsail: url: https://aws.amazon.com/lightsail/
 Compute/AWS-Batch: name: Amazon Batch
 Compute/AWS-Batch: url: https://aws.amazon.com/batch/
-Compute/AWS-Elastic-Beanstalk: name: AWS Elastic Beanstalk
-Compute/AWS-Elastic-Beanstalk: url: https://aws.amazon.com/elasticbeanstalk/
 Compute/AWS-Elastic-Beanstalk_Application: name: AWS Elastic Beanstalk - Application
 Compute/AWS-Elastic-Beanstalk_Application: url: https://aws.amazon.com/elasticbeanstalk/
 Compute/AWS-Elastic-Beanstalk_Deployment: name: AWS Elastic Beanstalk - Deployment
 Compute/AWS-Elastic-Beanstalk_Deployment: url: https://aws.amazon.com/elasticbeanstalk/
+Compute/AWS-Elastic-Beanstalk: name: AWS Elastic Beanstalk
+Compute/AWS-Elastic-Beanstalk: url: https://aws.amazon.com/elasticbeanstalk/
 Compute/AWS-Fargate: name: AWS Fargate
 Compute/AWS-Fargate: url: https://aws.amazon.com/fargate/
-Compute/AWS-Lambda: name: AWS Lambda
-Compute/AWS-Lambda: url: https://aws.amazon.com/lambda/
 Compute/AWS-Lambda_Lambda-Function: name: AWS Lambda - Lambda Function
 Compute/AWS-Lambda_Lambda-Function: url: https://aws.amazon.com/lambda/
+Compute/AWS-Lambda: name: AWS Lambda
+Compute/AWS-Lambda: url: https://aws.amazon.com/lambda/
 Compute/AWS-Outposts: name: AWS Outposts
 Compute/AWS-Outposts: url: https://aws.amazon.com/outposts/
 Compute/AWS-Serverless-Application-Repository: name: AWS Serverless Application Repository
 Compute/AWS-Serverless-Application-Repository: url: https://aws.amazon.com/serverless/serverlessrepo/
+Compute/AWS-Thinkbox_XMesh: name: AWS Thinkbox XMesh
+Compute/AWS-Thinkbox_XMesh: url: https://www.awsthinkbox.com/xmesh
+Compute/AWS-Thinkbox-Deadline: name: AWS Thinkbox Deadline
+Compute/AWS-Thinkbox-Deadline: url: https://www.awsthinkbox.com/deadline
+Compute/AWS-Thinkbox-Draft: name: AWS Thinkbox Draft
+Compute/AWS-Thinkbox-Draft: url: http://www.thinkboxsoftware.com/draft
+Compute/AWS-Thinkbox-Frost: name: AWS Thinkbox Frost
+Compute/AWS-Thinkbox-Frost: url: https://www.awsthinkbox.com/frost
+Compute/AWS-Thinkbox-Krakatoa: name: AWS Thinkbox Krakatoa
+Compute/AWS-Thinkbox-Krakatoa: url: https://www.awsthinkbox.com/krakatoa
+Compute/AWS-Thinkbox-Sequoia: name: AWS Thinkbox Sequoia
+Compute/AWS-Thinkbox-Sequoia: url: https://www.awsthinkbox.com/sequoia
+Compute/AWS-Thinkbox-Stoke: name: AWS Thinkbox Stoke
+Compute/AWS-Thinkbox-Stoke: url: https://www.awsthinkbox.com/stoke
 Compute/Compute: name: Compute
 Compute/Compute: url: https://aws.amazon.com/products/compute/
 Compute/VMware-Cloud-On-AWS: name: VMware Cloud On AWS
 Compute/VMware-Cloud-On-AWS: url: https://aws.amazon.com/vmware/
+Customer Enablement/AWS-IQ: name: AWS IQ
+Customer Enablement/AWS-IQ: url: https://aws.amazon.com/iq/
+Customer Enablement/AWS-Managed-Services: name: AWS Managed Services
+Customer Enablement/AWS-Managed-Services: url: https://aws.amazon.com/managed-services/
+Customer Enablement/AWS-Professional-Services: name: AWS Professional Services
+Customer Enablement/AWS-Professional-Services: url: https://aws.amazon.com/professional-services/
+Customer Enablement/AWS-Support: name: AWS Support
+Customer Enablement/AWS-Support: url: https://aws.amazon.com/premiumsupport/
+Customer Enablement/Customer-Enablement: name: Customer Enablement
 Customer Engagement/Amazon-Connect: name: Amazon Connect
 Customer Engagement/Amazon-Connect: url: https://aws.amazon.com/connect/
 Customer Engagement/Amazon-Pinpoint: name: Amazon Pinpoint
 Customer Engagement/Amazon-Pinpoint: url: https://aws.amazon.com/pinpoint/
-Customer Engagement/Amazon-Simple-Email-Service-SES: name: Amazon Simple Email Service SES
-Customer Engagement/Amazon-Simple-Email-Service-SES: url: https://aws.amazon.com/ses/
 Customer Engagement/Amazon-Simple-Email-Service-SES_Email: name: Amazon Simple Email Service SES - Email
 Customer Engagement/Amazon-Simple-Email-Service-SES_Email: url: https://aws.amazon.com/ses/
+Customer Engagement/Amazon-Simple-Email-Service-SES: name: Amazon Simple Email Service SES
+Customer Engagement/Amazon-Simple-Email-Service-SES: url: https://aws.amazon.com/ses/
 Customer Engagement/Customer-Engagement: name: Customer Engagement
 Customer Engagement/Customer-Engagement: url: https://aws.amazon.com/pinpoint/customer-engagement/
 Database/Amazon-Aurora: name: Amazon Aurora
 Database/Amazon-Aurora: url: https://aws.amazon.com/rds/aurora/
 Database/Amazon-DocumentDB-with-MongoDB-compatibility: name: Amazon DocumentDB with MongoDB-compatibility
 Database/Amazon-DocumentDB-with-MongoDB-compatibility: url: https://aws.amazon.com/documentdb/
-Database/Amazon-DynamoDB: name: Amazon DynamoDB
-Database/Amazon-DynamoDB: url: https://aws.amazon.com/dynamodb/
 Database/Amazon-DynamoDB_Attribute: name: Amazon DynamoDB - Attribute
 Database/Amazon-DynamoDB_Attribute: url: https://aws.amazon.com/dynamodb/
 Database/Amazon-DynamoDB_Attributes: name: Amazon DynamoDB - Attributes
 Database/Amazon-DynamoDB_Attributes: url: https://aws.amazon.com/dynamodb/
+Database/Amazon-DynamoDB_DAX: name: Amazon DynamoDB Accelerator (DAX)
+Database/Amazon-DynamoDB_DAX: url: https://aws.amazon.com/dynamodb/dax/
 Database/Amazon-DynamoDB_Global-Secondary-Index: name: Amazon DynamoDB - Global Secondary Index
 Database/Amazon-DynamoDB_Global-Secondary-Index: url: https://aws.amazon.com/dynamodb/
 Database/Amazon-DynamoDB_Item: name: Amazon DynamoDB - Item
@@ -280,36 +316,42 @@ Database/Amazon-DynamoDB_Items: name: Amazon DynamoDB - Items
 Database/Amazon-DynamoDB_Items: url: https://aws.amazon.com/dynamodb/
 Database/Amazon-DynamoDB_Table: name: Amazon DynamoDB - Table
 Database/Amazon-DynamoDB_Table: url: https://aws.amazon.com/dynamodb/
-Database/Amazon-ElastiCache: name: Amazon ElastiCache
-Database/Amazon-ElastiCache: url: https://aws.amazon.com/elasticache/
+Database/Amazon-DynamoDB: name: Amazon DynamoDB
+Database/Amazon-DynamoDB: url: https://aws.amazon.com/dynamodb/
 Database/Amazon-ElastiCache_Cache-Node: name: Amazon ElastiCache - Cache Node
 Database/Amazon-ElastiCache_Cache-Node: url: https://aws.amazon.com/elasticache/
 Database/Amazon-ElastiCache_For-Memcached: name: Amazon ElastiCache - For Memcached
 Database/Amazon-ElastiCache_For-Memcached: url: https://aws.amazon.com/memcached/
 Database/Amazon-ElastiCache_For-Redis: name: Amazon ElastiCache - For Redis
 Database/Amazon-ElastiCache_For-Redis: url: https://aws.amazon.com/redis/
+Database/Amazon-ElastiCache: name: Amazon ElastiCache
+Database/Amazon-ElastiCache: url: https://aws.amazon.com/elasticache/
 Database/Amazon-Neptune: name: Amazon Neptune
 Database/Amazon-Neptune: url: https://aws.amazon.com/neptune/
 Database/Amazon-Quantum-Ledger-Database_QLDB: name: Amazon Quantum Ledger Database - QLDB
 Database/Amazon-Quantum-Ledger-Database_QLDB: url: https://aws.amazon.com/qldb/
 Database/Amazon-RDS-on-VMware: name: Amazon RDS on VMware
 Database/Amazon-RDS-on-VMware: url: https://aws.amazon.com/rds/vmware/
+Database/Amazon-RDS_PIOPS: name: Amazon RDS Provisioned IOPS
+Database/Amazon-RDS_PIOPS: url: https://aws.amazon.com/rds/
 Database/Amazon-RDS: name: Amazon RDS
 Database/Amazon-RDS: url: https://aws.amazon.com/rds/
-Database/Amazon-Redshift: name: Amazon Redshift
-Database/Amazon-Redshift: url: https://aws.amazon.com/redshift/
 Database/Amazon-Redshift_Dense-Compute-Node: name: Amazon Redshift - Dense Compute Node
 Database/Amazon-Redshift_Dense-Compute-Node: url: https://aws.amazon.com/redshift/
 Database/Amazon-Redshift_Dense-Storage-Node: name: Amazon Redshift - Dense Storage Node
 Database/Amazon-Redshift_Dense-Storage-Node: url: https://aws.amazon.com/redshift/
+Database/Amazon-Redshift: name: Amazon Redshift
+Database/Amazon-Redshift: url: https://aws.amazon.com/redshift/
 Database/Amazon-Timestream: name: Amazon Timestream
 Database/Amazon-Timestream: url: https://aws.amazon.com/timestream/
-Database/AWS-Database-Migration-Service: name: AWS Database Migration Service
-Database/AWS-Database-Migration-Service: url: https://aws.amazon.com/dms/
 Database/AWS-Database-Migration-Service_Database-Migration-Workflow: name: AWS DMS - Database Migration Workflow Job
 Database/AWS-Database-Migration-Service_Database-Migration-Workflow: url: https://aws.amazon.com/dms/
+Database/AWS-Database-Migration-Service: name: AWS Database Migration Service
+Database/AWS-Database-Migration-Service: url: https://aws.amazon.com/dms/
 Database/Database: name: AWS Databases
 Database/Database: url: https://aws.amazon.com/products/databases/
+Developer Tools/AWS-Cloud-Development-Kit: name: AWS Cloud Development Kit
+Developer Tools/AWS-Cloud-Development-Kit: url: https://aws.amazon.com/cdk/
 Developer Tools/AWS-Cloud9: name: AWS Cloud9
 Developer Tools/AWS-Cloud9: url: https://aws.amazon.com/cloud9/
 Developer Tools/AWS-CodeBuild: name: AWS CodeBuild
@@ -328,6 +370,8 @@ Developer Tools/AWS-Tools-And-SDKs: name: AWS Tools and SDKs
 Developer Tools/AWS-Tools-And-SDKs: url: https://aws.amazon.com/getting-started/tools-sdks/
 Developer Tools/AWS-X-Ray: name: AWS X-Ray
 Developer Tools/AWS-X-Ray: url: https://aws.amazon.com/xray/
+Developer Tools/Cloud9_Resource: name: AWS Cloud9 Resource
+Developer Tools/Cloud9_Resource: url: https://aws.amazon.com/cloud9/
 Developer Tools/Developer-Tools: name: Developer Tools
 Developer Tools/Developer-Tools: url: https://aws.amazon.com/products/developer-tools/
 End User Computing/Amazon-Appstream-2.0: name: Amazon AppStream 2.0
@@ -350,8 +394,6 @@ Internet of Things/AWS-IoT--Device-Management: name: Amazon IoT Device Managemen
 Internet of Things/AWS-IoT--Device-Management: url: https://aws.amazon.com/iot-device-management/
 Internet of Things/AWS-IoT-1-Click: name: Amazon IoT 1 Click
 Internet of Things/AWS-IoT-1-Click: url: https://aws.amazon.com/iot-1-click/
-Internet of Things/AWS-IoT-Analytics: name: Amazon IoT Analytics
-Internet of Things/AWS-IoT-Analytics: url: https://aws.amazon.com/iot-analytics/
 Internet of Things/AWS-IoT-Analytics_Channel: name: Amazon IoT Analytics - Channel
 Internet of Things/AWS-IoT-Analytics_Channel: url: https://aws.amazon.com/iot-analytics/
 Internet of Things/AWS-IoT-Analytics_Data-Set: name: Amazon IoT Analytics - Data Set
@@ -362,6 +404,8 @@ Internet of Things/AWS-IoT-Analytics_Notebook: name: Amazon IoT Analytics - Note
 Internet of Things/AWS-IoT-Analytics_Notebook: url: https://aws.amazon.com/iot-analytics/
 Internet of Things/AWS-IoT-Analytics_Pipeline: name: Amazon IoT Analytics - Pipeline
 Internet of Things/AWS-IoT-Analytics_Pipeline: url: https://aws.amazon.com/iot-analytics/
+Internet of Things/AWS-IoT-Analytics: name: Amazon IoT Analytics
+Internet of Things/AWS-IoT-Analytics: url: https://aws.amazon.com/iot-analytics/
 Internet of Things/AWS-IoT-Button: name: Amazon IoT Button
 Internet of Things/AWS-IoT-Button: url: https://aws.amazon.com/iotbutton/
 Internet of Things/AWS-IoT-Core: name: Amazon IoT Core
@@ -370,10 +414,10 @@ Internet of Things/AWS-IoT-Device-Defender: name: Amazon IoT Device Defender
 Internet of Things/AWS-IoT-Device-Defender: url: https://aws.amazon.com/iot-device-defender/
 Internet of Things/AWS-IoT-Events: name: Amazon IoT Events
 Internet of Things/AWS-IoT-Events: url: https://aws.amazon.com/iot-events/
-Internet of Things/AWS-IoT-Greengrass: name: Amazon IoT Greengrass
-Internet of Things/AWS-IoT-Greengrass: url: https://aws.amazon.com/greengrass/
 Internet of Things/AWS-IoT-Greengrass_Connector: name: Amazon IoT Greengrass Connector
 Internet of Things/AWS-IoT-Greengrass_Connector: url: https://aws.amazon.com/greengrass/
+Internet of Things/AWS-IoT-Greengrass: name: Amazon IoT Greengrass
+Internet of Things/AWS-IoT-Greengrass: url: https://aws.amazon.com/greengrass/
 Internet of Things/AWS-IoT-SiteWise: name: Amazon IoT SiteWise
 Internet of Things/AWS-IoT-SiteWise: url: https://aws.amazon.com/iot-sitewise/
 Internet of Things/AWS-IoT-Things-Graph: name: Amazon IoT Things Graph
@@ -476,22 +520,22 @@ Machine Learning/Amazon-Personalize: name: Amazon Personalize
 Machine Learning/Amazon-Personalize: url: https://aws.amazon.com/personalize/
 Machine Learning/Amazon-Polly: name: Amazon Polly
 Machine Learning/Amazon-Polly: url: https://aws.amazon.com/polly/
-Machine Learning/Amazon-Rekognition: name: Amazon Rekognition
-Machine Learning/Amazon-Rekognition: url: https://aws.amazon.com/rekognition/
 Machine Learning/Amazon-Rekognition_Image: name: Amazon Rekognition Image
 Machine Learning/Amazon-Rekognition_Image: url: https://aws.amazon.com/rekognition/
 Machine Learning/Amazon-Rekognition_Video: name: Amazon Rekognition Video
 Machine Learning/Amazon-Rekognition_Video: url: https://aws.amazon.com/rekognition/
-Machine Learning/Amazon-SageMaker-Ground-Truth: name: Amazon SageMaker - Ground Truth
-Machine Learning/Amazon-SageMaker-Ground-Truth: url: https://aws.amazon.com/sagemaker/
-Machine Learning/Amazon-SageMaker: name: Amazon SageMaker
-Machine Learning/Amazon-SageMaker: url: https://aws.amazon.com/sagemaker/
+Machine Learning/Amazon-Rekognition: name: Amazon Rekognition
+Machine Learning/Amazon-Rekognition: url: https://aws.amazon.com/rekognition/
 Machine Learning/Amazon-SageMaker_Model: name: Amazon SageMaker - Model
 Machine Learning/Amazon-SageMaker_Model: url: https://aws.amazon.com/sagemaker/
 Machine Learning/Amazon-SageMaker_Notebook: name: Amazon SageMaker - Notebook
 Machine Learning/Amazon-SageMaker_Notebook: url: https://aws.amazon.com/sagemaker/
 Machine Learning/Amazon-SageMaker_Train: name: Amazon SageMaker - Train
 Machine Learning/Amazon-SageMaker_Train: url: https://aws.amazon.com/sagemaker/
+Machine Learning/Amazon-SageMaker-Ground-Truth: name: Amazon SageMaker - Ground Truth
+Machine Learning/Amazon-SageMaker-Ground-Truth: url: https://aws.amazon.com/sagemaker/
+Machine Learning/Amazon-SageMaker: name: Amazon SageMaker
+Machine Learning/Amazon-SageMaker: url: https://aws.amazon.com/sagemaker/
 Machine Learning/Amazon-Textract: name: Amazon Textract
 Machine Learning/Amazon-Textract: url: https://aws.amazon.com/textract/
 Machine Learning/Amazon-Transcribe: name: Amazon Transcribe
@@ -512,26 +556,26 @@ Machine Learning/Machine-Learning: name: Machine Learning
 Machine Learning/Machine-Learning: url: https://aws.amazon.com/machine-learning/
 Machine Learning/TensorFlow-on-AWS: name: TensorFlow on AWS
 Machine Learning/TensorFlow-on-AWS: url: https://aws.amazon.com/tensorflow/
-Management & Governance/Amazon-CloudWatch: name: Amazon CloudWatch
-Management & Governance/Amazon-CloudWatch: url: https://aws.amazon.com/cloudwatch/
 Management & Governance/Amazon-CloudWatch_Alarm: name: Amazon CloudWatch -  Alarm
 Management & Governance/Amazon-CloudWatch_Alarm: url: https://aws.amazon.com/cloudwatch/
 Management & Governance/Amazon-CloudWatch_Event-Event-Based: name: Amazon CloudWatch - Event
 Management & Governance/Amazon-CloudWatch_Event-Event-Based: url: https://aws.amazon.com/cloudwatch/
-Management & Governance/Amazon-CloudWatch_Event-Time-Based: name: Amazon CloudWatch - Event Time Based 
+Management & Governance/Amazon-CloudWatch_Event-Time-Based: name: Amazon CloudWatch - Event Time Based
 Management & Governance/Amazon-CloudWatch_Event-Time-Based: url: https://aws.amazon.com/cloudwatch/
 Management & Governance/Amazon-CloudWatch_Rule: name: Amazon CloudWatch - Rule
 Management & Governance/Amazon-CloudWatch_Rule: url: https://aws.amazon.com/cloudwatch/
+Management & Governance/Amazon-CloudWatch: name: Amazon CloudWatch
+Management & Governance/Amazon-CloudWatch: url: https://aws.amazon.com/cloudwatch/
 Management & Governance/AWS-Auto-Scaling: name: AWS Auto Scaling
 Management & Governance/AWS-Auto-Scaling: url: https://aws.amazon.com/autoscaling/
-Management & Governance/AWS-CloudFormation: name: AWS CloudFormation
-Management & Governance/AWS-CloudFormation: url: https://aws.amazon.com/cloudformation/
 Management & Governance/AWS-CloudFormation_Change-Set: name: AWS CloudFormation - Change Set
 Management & Governance/AWS-CloudFormation_Change-Set: url: https://aws.amazon.com/cloudformation/
 Management & Governance/AWS-CloudFormation_Stack: name: AWS CloudFormation - Stack
 Management & Governance/AWS-CloudFormation_Stack: url: https://aws.amazon.com/cloudformation/
 Management & Governance/AWS-CloudFormation_Template: name: AWS CloudFormation - Template
 Management & Governance/AWS-CloudFormation_Template: url: https://aws.amazon.com/cloudformation/
+Management & Governance/AWS-CloudFormation: name: AWS CloudFormation
+Management & Governance/AWS-CloudFormation: url: https://aws.amazon.com/cloudformation/
 Management & Governance/AWS-CloudTrail: name: AWS CloudTrail
 Management & Governance/AWS-CloudTrail: url: https://aws.amazon.com/cloudtrail/
 Management & Governance/AWS-Command-Line-Interface: name: AWS Command Line Interface
@@ -546,8 +590,6 @@ Management & Governance/AWS-Managed-Services: name: AWS Managed Services
 Management & Governance/AWS-Managed-Services: url: https://aws.amazon.com/managed-services/
 Management & Governance/AWS-Management-Console: name: AWS Management Console
 Management & Governance/AWS-Management-Console: url: https://aws.amazon.com/console/
-Management & Governance/AWS-OpsWorks: name: AWS OpsWorks
-Management & Governance/AWS-OpsWorks: url: https://aws.amazon.com/opsworks/
 Management & Governance/AWS-OpsWorks_Apps: name: AWS OpsWorks Apps
 Management & Governance/AWS-OpsWorks_Apps: url: https://aws.amazon.com/opsworks/
 Management & Governance/AWS-OpsWorks_Deployments: name: AWS OpsWorks Deployment
@@ -564,18 +606,20 @@ Management & Governance/AWS-OpsWorks_Resources: name: AWS OpsWorks - Resources
 Management & Governance/AWS-OpsWorks_Resources: url: https://aws.amazon.com/opsworks/
 Management & Governance/AWS-OpsWorks_Stack2: name: AWS OpsWorks - Stack
 Management & Governance/AWS-OpsWorks_Stack2: url: https://aws.amazon.com/opsworks/
-Management & Governance/AWS-Organizations: name: AWS Organizations
-Management & Governance/AWS-Organizations: url: https://aws.amazon.com/organizations/
+Management & Governance/AWS-OpsWorks: name: AWS OpsWorks
+Management & Governance/AWS-OpsWorks: url: https://aws.amazon.com/opsworks/
 Management & Governance/AWS-Organizations_Account: name: AWS Organizations -- Account
 Management & Governance/AWS-Organizations_Account: url: https://aws.amazon.com/organizations/
 Management & Governance/AWS-Organizations_Organizational-Unit-OU: name: AWS Organizations -- Organizational Unit OU
 Management & Governance/AWS-Organizations_Organizational-Unit-OU: url: https://aws.amazon.com/organizations/
+Management & Governance/AWS-Organizations_Organizational-unit: name: AWS Organizations -- Organizational Unit
+Management & Governance/AWS-Organizations_Organizational-unit: url: https://aws.amazon.com/organizations/
+Management & Governance/AWS-Organizations: name: AWS Organizations
+Management & Governance/AWS-Organizations: url: https://aws.amazon.com/organizations/
 Management & Governance/AWS-Personal-Health-Dashboard: name: AWS Personal Health Dashboard
 Management & Governance/AWS-Personal-Health-Dashboard: url: https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/
 Management & Governance/AWS-Service-Catalog: name: AWS Service Catalog
 Management & Governance/AWS-Service-Catalog: url: https://aws.amazon.com/servicecatalog/
-Management & Governance/AWS-Systems-Manager: name: AWS Systems Manager
-Management & Governance/AWS-Systems-Manager: url: https://aws.amazon.com/systems-manager/
 Management & Governance/AWS-Systems-Manager_Automation: name: AWS Systems Manager - Automation
 Management & Governance/AWS-Systems-Manager_Automation: url: https://aws.amazon.com/systems-manager/
 Management & Governance/AWS-Systems-Manager_Documents: name: AWS Systems Manager - Documents
@@ -592,8 +636,8 @@ Management & Governance/AWS-Systems-Manager_Run-Command: name: AWS Systems Manag
 Management & Governance/AWS-Systems-Manager_Run-Command: url: https://aws.amazon.com/systems-manager/
 Management & Governance/AWS-Systems-Manager_State-Manager: name: AWS Systems Manager - State Manager
 Management & Governance/AWS-Systems-Manager_State-Manager: url: https://aws.amazon.com/systems-manager/
-Management & Governance/AWS-Trusted-Advisor: name: AWS Trusted Advisor
-Management & Governance/AWS-Trusted-Advisor: url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+Management & Governance/AWS-Systems-Manager: name: AWS Systems Manager
+Management & Governance/AWS-Systems-Manager: url: https://aws.amazon.com/systems-manager/
 Management & Governance/AWS-Trusted-Advisor_Checklist-Cost: name: AWS Trusted Advisor - Checklist Cost
 Management & Governance/AWS-Trusted-Advisor_Checklist-Cost: url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 Management & Governance/AWS-Trusted-Advisor_Checklist-Fault-Tolerant: name: AWS Trusted Advisor - Checklist Fault Tolerant
@@ -604,14 +648,24 @@ Management & Governance/AWS-Trusted-Advisor_Checklist-Security: name: AWS Truste
 Management & Governance/AWS-Trusted-Advisor_Checklist-Security: url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 Management & Governance/AWS-Trusted-Advisor_Checklist: name: AWS Trusted Advisor - Checklist
 Management & Governance/AWS-Trusted-Advisor_Checklist: url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+Management & Governance/AWS-Trusted-Advisor: name: AWS Trusted Advisor
+Management & Governance/AWS-Trusted-Advisor: url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 Management & Governance/AWS-Well-Architected-Tool: name: AWS Well Architected Tool
 Management & Governance/AWS-Well-Architected-Tool: url: https://aws.amazon.com/well-architected-tool/
 Management & Governance/Management-and-Governance: name: AWS Management and Governance
 Management & Governance/Management-and-Governance: url: https://aws.amazon.com/products/management-tools/
+Management & Governance/Systems-Manager_OpsCenter: name: AWS Systems Manager OpCenter
+Management & Governance/Systems-Manager_OpsCenter: url: https://aws.amazon.com/systems-manager/
 Media Services/Amazon-Elastic-Transcoder: name: Amazon Elastic Transcoder
 Media Services/Amazon-Elastic-Transcoder: url: https://aws.amazon.com/elastictranscoder/
 Media Services/Amazon-Kinesis-Video-Streams: name: Amazon Kinesis Video Streams
 Media Services/Amazon-Kinesis-Video-Streams: url: https://aws.amazon.com/kinesis/video-streams/
+Media Services/AWS-Elemental-Conductor: name: AWS Elemental Conductor
+Media Services/AWS-Elemental-Conductor: url: https://aws.amazon.com/elemental-conductor/
+Media Services/AWS-Elemental-Delta: name: AWS Elemental Delta
+Media Services/AWS-Elemental-Delta: url: https://aws.amazon.com/elemental-delta/
+Media Services/AWS-Elemental-Live: name: AWS Elemental Live
+Media Services/AWS-Elemental-Live: url: https://aws.amazon.com/elemental-live/
 Media Services/AWS-Elemental-MediaConnect: name: AWS Elemental MediaConnect
 Media Services/AWS-Elemental-MediaConnect: url: https://aws.amazon.com/mediaconnect/
 Media Services/AWS-Elemental-MediaConvert: name: AWS Elemental MediaConvert
@@ -624,16 +678,18 @@ Media Services/AWS-Elemental-MediaStore: name: AWS Elemental MediaStore
 Media Services/AWS-Elemental-MediaStore: url: https://aws.amazon.com/mediastore/
 Media Services/AWS-Elemental-MediaTailor: name: AWS Elemental MediaTailor
 Media Services/AWS-Elemental-MediaTailor: url: https://aws.amazon.com/mediatailor/
+Media Services/AWS-Elemental-Server: name: AWS Elemental Server
+Media Services/AWS-Elemental-Server: url: https://aws.amazon.com/elemental-server/
 Media Services/Media-Services: name: Media Services
 Media Services/Media-Services: url: https://aws.amazon.com/media-services/
 Migration & Transfer/AWS-Application-Discovery-Service: name: AWS Application Discovery Service
 Migration & Transfer/AWS-Application-Discovery-Service: url: https://aws.amazon.com/application-discovery/
 Migration & Transfer/AWS-Database-Migration-Service: name: AWS Database Migration Service
 Migration & Transfer/AWS-Database-Migration-Service: url: https://aws.amazon.com/dms/
-Migration & Transfer/AWS-DataSync: name: AWS DataSync
-Migration & Transfer/AWS-DataSync: url: https://aws.amazon.com/datasync/
 Migration & Transfer/AWS-DataSync_Agent: name: AWS DataSync - Agent
 Migration & Transfer/AWS-DataSync_Agent: url: https://aws.amazon.com/datasync/
+Migration & Transfer/AWS-DataSync: name: AWS DataSync
+Migration & Transfer/AWS-DataSync: url: https://aws.amazon.com/datasync/
 Migration & Transfer/AWS-Migration-Hub: name: AWS Migration Hub
 Migration & Transfer/AWS-Migration-Hub: url: https://aws.amazon.com/migration-hub/
 Migration & Transfer/AWS-Server-Migration-Service: name: AWS Server Migration Service
@@ -648,10 +704,10 @@ Migration & Transfer/AWS-Transfer-for-SFTP: name: AWS Transfer for SFTP
 Migration & Transfer/AWS-Transfer-for-SFTP: url: https://aws.amazon.com/sftp/
 Migration & Transfer/Migration-and-Transfer: name: Migration and Transfer
 Migration & Transfer/Migration-and-Transfer: url: https://aws.amazon.com/cloud-migration/
-Mobile/Amazon-API-Gateway: name: Amazon API Gateway
-Mobile/Amazon-API-Gateway: url: https://aws.amazon.com/api-gateway/
 Mobile/Amazon-API-Gateway_Endpoint: name: Amazon API Gateway - Endpoint
 Mobile/Amazon-API-Gateway_Endpoint: url: https://aws.amazon.com/api-gateway/
+Mobile/Amazon-API-Gateway: name: Amazon API Gateway
+Mobile/Amazon-API-Gateway: url: https://aws.amazon.com/api-gateway/
 Mobile/Amazon-Pinpoint: name: Amazon Pinpoint
 Mobile/Amazon-Pinpoint: url: https://aws.amazon.com/pinpoint/
 Mobile/AWS-Amplify: name: AWS Amplify
@@ -662,26 +718,24 @@ Mobile/AWS-Device-Farm: name: AWS Device Farm
 Mobile/AWS-Device-Farm: url: https://aws.amazon.com/device-farm/
 Mobile/Mobile: name: Mobile
 Mobile/Mobile: url: https://aws.amazon.com/amplify/
-Networking & Content Delivery/Amazon-API-Gateway: name: Amazon API Gateway
-Networking & Content Delivery/Amazon-API-Gateway: url: https://aws.amazon.com/api-gateway/
 Networking & Content Delivery/Amazon-API-Gateway_Endpoint: name: Amazon API Gateway - Endpoint
 Networking & Content Delivery/Amazon-API-Gateway_Endpoint: url: https://aws.amazon.com/api-gateway/
-Networking & Content Delivery/Amazon-CloudFront: name: Amazon CloudFront
-Networking & Content Delivery/Amazon-CloudFront: url: https://aws.amazon.com/cloudfront/
+Networking & Content Delivery/Amazon-API-Gateway: name: Amazon API Gateway
+Networking & Content Delivery/Amazon-API-Gateway: url: https://aws.amazon.com/api-gateway/
 Networking & Content Delivery/Amazon-CloudFront_Download-Distribution: name: Amazon CloudFront - Download Distribution
 Networking & Content Delivery/Amazon-CloudFront_Download-Distribution: url: https://aws.amazon.com/cloudfront/
 Networking & Content Delivery/Amazon-CloudFront_Edge-Location: name: Amazon CloudFront - Edge Location
 Networking & Content Delivery/Amazon-CloudFront_Edge-Location: url: https://aws.amazon.com/cloudfront/
 Networking & Content Delivery/Amazon-CloudFront_Streaming-Distribution: name: Amazon CloudFront - Streaming Distribution
 Networking & Content Delivery/Amazon-CloudFront_Streaming-Distribution: url: https://aws.amazon.com/cloudfront/
-Networking & Content Delivery/Amazon-Route-53: name: Amazon Route 53
-Networking & Content Delivery/Amazon-Route-53: url: https://aws.amazon.com/route53/
+Networking & Content Delivery/Amazon-CloudFront: name: Amazon CloudFront
+Networking & Content Delivery/Amazon-CloudFront: url: https://aws.amazon.com/cloudfront/
 Networking & Content Delivery/Amazon-Route-53_Hosted-Zone: name: Amazon Route 53 - Hosted Zone
 Networking & Content Delivery/Amazon-Route-53_Hosted-Zone: url: https://aws.amazon.com/route53/
 Networking & Content Delivery/Amazon-Route-53_Route-Table: name: Amazon Route 53 - Route Table
 Networking & Content Delivery/Amazon-Route-53_Route-Table: url: https://aws.amazon.com/route53/
-Networking & Content Delivery/Amazon-VPC: name: Amazon VPC
-Networking & Content Delivery/Amazon-VPC: url: https://aws.amazon.com/vpc/
+Networking & Content Delivery/Amazon-Route-53: name: Amazon Route 53
+Networking & Content Delivery/Amazon-Route-53: url: https://aws.amazon.com/route53/
 Networking & Content Delivery/Amazon-VPC_Customer-Gateway: name: Amazon VPC - Customer Gateway
 Networking & Content Delivery/Amazon-VPC_Customer-Gateway: url: https://aws.amazon.com/vpc/
 Networking & Content Delivery/Amazon-VPC_Elastic-Network-Adapter: name: Amazon VPC - Elastic Network Adapter
@@ -706,6 +760,10 @@ Networking & Content Delivery/Amazon-VPC_VPN-Connection: name: Amazon VPC - VPN 
 Networking & Content Delivery/Amazon-VPC_VPN-Connection: url: https://aws.amazon.com/vpc/
 Networking & Content Delivery/Amazon-VPC_VPN-Gateway: name: Amazon VPC - VPN Gateway
 Networking & Content Delivery/Amazon-VPC_VPN-Gateway: url: https://aws.amazon.com/vpc/
+Networking & Content Delivery/Amazon-VPC-Traffic-Mirroring: name: Amazon VPC Traffic Mirroring
+Networking & Content Delivery/Amazon-VPC-Traffic-Mirroring: url: https://aws.amazon.com/vpc/
+Networking & Content Delivery/Amazon-VPC: name: Amazon VPC
+Networking & Content Delivery/Amazon-VPC: url: https://aws.amazon.com/vpc/
 Networking & Content Delivery/AWS-App-Mesh: name: AWS App Mesh
 Networking & Content Delivery/AWS-App-Mesh: url: https://aws.amazon.com/app-mesh/
 Networking & Content Delivery/AWS-Client-VPN: name: AWS Client VPN
@@ -716,24 +774,22 @@ Networking & Content Delivery/AWS-Direct-Connect: name: AWS Direct Connect
 Networking & Content Delivery/AWS-Direct-Connect: url: https://aws.amazon.com/directconnect/
 Networking & Content Delivery/AWS-Global-Accelerator: name: AWS Global Accelerator
 Networking & Content Delivery/AWS-Global-Accelerator: url: https://aws.amazon.com/global-accelerator/
-Networking & Content Delivery/AWS-PrivateLink: name: AWS PrivateLink
+Networking & Content Delivery/AWS-PrivateLink: name: AWS VPC PrivateLink
 Networking & Content Delivery/AWS-PrivateLink: url: https://aws.amazon.com/privatelink/
 Networking & Content Delivery/AWS-Site-to-Site-VPN: name: AWS Site-to-Site VPN
 Networking & Content Delivery/AWS-Site-to-Site-VPN: url: https://aws.amazon.com/vpn/
 Networking & Content Delivery/AWS-Transit-Gateway: name: AWS Transit Gateway
 Networking & Content Delivery/AWS-Transit-Gateway: url: https://aws.amazon.com/transit-gateway/
+Networking & Content Delivery/Elastic-Load-Balancing_Classic-load-balancer: name: Elastic Load Balancing ELB - Classic
+Networking & Content Delivery/Elastic-Load-Balancing_Classic-load-balancer: url: https://aws.amazon.com/elasticloadbalancing/
 Networking & Content Delivery/Elastic-Load-Balancing-ELB_Application-load-balancer: name: Elastic Load Balancing ELB - Application
 Networking & Content Delivery/Elastic-Load-Balancing-ELB_Application-load-balancer: url: https://aws.amazon.com/elasticloadbalancing/
 Networking & Content Delivery/Elastic-Load-Balancing-ELB_Network-load-balancer: name: Elastic Load Balancing ELB - Network
 Networking & Content Delivery/Elastic-Load-Balancing-ELB_Network-load-balancer: url: https://aws.amazon.com/elasticloadbalancing/
 Networking & Content Delivery/Elastic-Load-Balancing: name: Elastic Load Balancing ELB
 Networking & Content Delivery/Elastic-Load-Balancing: url: https://aws.amazon.com/elasticloadbalancing/
-Networking & Content Delivery/Elastic-Load-Balancing_Classic-load-balancer: name: Elastic Load Balancing ELB - Classic
-Networking & Content Delivery/Elastic-Load-Balancing_Classic-load-balancer: url: https://aws.amazon.com/elasticloadbalancing/
 Networking & Content Delivery/Networking-and-Content-Delivery: name: AWS Networking and Content Delivery
 Networking & Content Delivery/Networking-and-Content-Delivery: url: https://aws.amazon.com/products/networking/
-Robotics/AWS-RoboMaker: name: AWS RoboMaker
-Robotics/AWS-RoboMaker: url: https://aws.amazon.com/robomaker/
 Robotics/AWS-RoboMaker_Cloud-Extension-ROS: name: AWS RoboMaker - Cloud Extension ROS
 Robotics/AWS-RoboMaker_Cloud-Extension-ROS: url: https://aws.amazon.com/robomaker/
 Robotics/AWS-RoboMaker_Development-Environment: name: AWS RoboMaker - Development Environment
@@ -742,30 +798,36 @@ Robotics/AWS-RoboMaker_Fleet-Management: name: AWS RoboMaker - Fleet Management
 Robotics/AWS-RoboMaker_Fleet-Management: url: https://aws.amazon.com/robomaker/
 Robotics/AWS-RoboMaker_Simulation: name: AWS RoboMaker - Simulation
 Robotics/AWS-RoboMaker_Simulation: url: https://aws.amazon.com/robomaker/
+Robotics/AWS-RoboMaker: name: AWS RoboMaker
+Robotics/AWS-RoboMaker: url: https://aws.amazon.com/robomaker/
 Robotics/Robotics: name: AWS Robotics
 Robotics/Robotics: url: https://aws.amazon.com/robomaker/
 Satellite/AWS-Ground-Station: name: AWS Ground Station
 Satellite/AWS-Ground-Station: url: https://aws.amazon.com/ground-station/
 Satellite/Satellite: name: Satellite
 Satellite/Satellite: url: https://aws.amazon.com/ground-station/
+Security, Identity, & Compliance/AD-Connector: name: AD Connector
+Security, Identity, & Compliance/AD-Connector: url: https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_ad_connector.html
 Security, Identity, & Compliance/Amazon-Cloud-Directory: name: Amazon Cloud Directory
 Security, Identity, & Compliance/Amazon-Cloud-Directory: url: https://aws.amazon.com/cloud-directory/
 Security, Identity, & Compliance/Amazon-Cognito: name: Amazon Cognito
 Security, Identity, & Compliance/Amazon-Cognito: url: https://aws.amazon.com/cognito/
 Security, Identity, & Compliance/Amazon-GuardDuty: name: Amazon GuardDuty
 Security, Identity, & Compliance/Amazon-GuardDuty: url: https://aws.amazon.com/guardduty/
-Security, Identity, & Compliance/Amazon-Inspector: name: Amazon Inspector
-Security, Identity, & Compliance/Amazon-Inspector: url: https://aws.amazon.com/inspector/
 Security, Identity, & Compliance/Amazon-Inspector_Agent: name: Amazon Inspector - Agent
 Security, Identity, & Compliance/Amazon-Inspector_Agent: url: https://aws.amazon.com/inspector/
+Security, Identity, & Compliance/Amazon-Inspector: name: Amazon Inspector
+Security, Identity, & Compliance/Amazon-Inspector: url: https://aws.amazon.com/inspector/
 Security, Identity, & Compliance/Amazon-Macie: name: Amazon Macie
 Security, Identity, & Compliance/Amazon-Macie: url: https://aws.amazon.com/macie/
 Security, Identity, & Compliance/AWS-Artifact: name: AWS Artifact
 Security, Identity, & Compliance/AWS-Artifact: url: https://aws.amazon.com/artifact/
-Security, Identity, & Compliance/AWS-Certificate-Manager: name: AWS Certificate Manager
-Security, Identity, & Compliance/AWS-Certificate-Manager: url: https://aws.amazon.com/certificate-manager/
+Security, Identity, & Compliance/AWS-Certificate-Authority: name: AWS Certificate Authority
+Security, Identity, & Compliance/AWS-Certificate-Authority: url: https://aws.amazon.com/certificate-manager/
 Security, Identity, & Compliance/AWS-Certificate-Manager_Certificate-Manager: name: AWS Certificate Manager - Certificate Manager
 Security, Identity, & Compliance/AWS-Certificate-Manager_Certificate-Manager: url: https://aws.amazon.com/certificate-manager/
+Security, Identity, & Compliance/AWS-Certificate-Manager: name: AWS Certificate Manager
+Security, Identity, & Compliance/AWS-Certificate-Manager: url: https://aws.amazon.com/certificate-manager/
 Security, Identity, & Compliance/AWS-CloudHSM: name: AWS CloudHSM
 Security, Identity, & Compliance/AWS-CloudHSM: url: https://aws.amazon.com/cloudhsm/
 Security, Identity, & Compliance/AWS-Directory-Service: name: AWS Directory Service
@@ -796,46 +858,50 @@ Security, Identity, & Compliance/AWS-Identity-and-Access-Management-IAM_Temporar
 Security, Identity, & Compliance/AWS-Identity-and-Access-Management-IAM_Temporary-Security-Credential: url: https://aws.amazon.com/iam/
 Security, Identity, & Compliance/AWS-Key-Management-Service: name: AWS Key Management Service
 Security, Identity, & Compliance/AWS-Key-Management-Service: url: https://aws.amazon.com/kms/
+Security, Identity, & Compliance/AWS-Managed-Microsoft-AD: name: AWS Directory Service
+Security, Identity, & Compliance/AWS-Managed-Microsoft-AD: url: https://aws.amazon.com/directoryservice/
 Security, Identity, & Compliance/AWS-Resource-Access-Manager: name: AWS Resource Access Manager
 Security, Identity, & Compliance/AWS-Resource-Access-Manager: url: https://aws.amazon.com/ram/
 Security, Identity, & Compliance/AWS-Secrets-Manager: name: AWS Secrets Manager
 Security, Identity, & Compliance/AWS-Secrets-Manager: url: https://aws.amazon.com/secrets-manager/
 Security, Identity, & Compliance/AWS-Security-Hub: name: AWS Security Hub
 Security, Identity, & Compliance/AWS-Security-Hub: url: https://aws.amazon.com/security-hub/
-Security, Identity, & Compliance/AWS-Shield: name: AWS Shield
-Security, Identity, & Compliance/AWS-Shield: url: https://aws.amazon.com/shield/
 Security, Identity, & Compliance/AWS-Shield_Shield-Advanced: name: AWS Shield - Shield Advanced
 Security, Identity, & Compliance/AWS-Shield_Shield-Advanced: url: https://aws.amazon.com/shield/
+Security, Identity, & Compliance/AWS-Shield: name: AWS Shield
+Security, Identity, & Compliance/AWS-Shield: url: https://aws.amazon.com/shield/
 Security, Identity, & Compliance/AWS-Single-Sign-On: name: AWS Single Sign On
 Security, Identity, & Compliance/AWS-Single-Sign-On: url: https://aws.amazon.com/single-sign-on/
-Security, Identity, & Compliance/AWS-WAF: name: AWS WAF
-Security, Identity, & Compliance/AWS-WAF: url: https://aws.amazon.com/waf/
 Security, Identity, & Compliance/AWS-WAF_Filtering-rule: name: AWS WAF - Filtering Rule
 Security, Identity, & Compliance/AWS-WAF_Filtering-rule: url: https://aws.amazon.com/waf/
+Security, Identity, & Compliance/AWS-WAF: name: AWS WAF
+Security, Identity, & Compliance/AWS-WAF: url: https://aws.amazon.com/waf/
 Security, Identity, & Compliance/Security-Identity-and-Compliance: name: AWS Security, Identity, and Compliance
 Security, Identity, & Compliance/Security-Identity-and-Compliance: url: https://aws.amazon.com/products/security/
-Storage/Amazon-Elastic-Block-Store-EBS: name: Amazon Elastic Block Store EBS
-Storage/Amazon-Elastic-Block-Store-EBS: url: https://aws.amazon.com/ebs/
+Security, Identity, & Compliance/Simple-AD: name: Simple Active Directory
+Security, Identity, & Compliance/Simple-AD: url: https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_simple_ad.html
 Storage/Amazon-Elastic-Block-Store-EBS_Snapshot: name: Amazon Elastic Block Store EBS - Snapshot
 Storage/Amazon-Elastic-Block-Store-EBS_Snapshot: url: https://aws.amazon.com/ebs/
 Storage/Amazon-Elastic-Block-Store-EBS_Volume: name: Amazon Elastic Block Store EBS - Volume
 Storage/Amazon-Elastic-Block-Store-EBS_Volume: url: https://aws.amazon.com/ebs/
-Storage/Amazon-Elastic-File-System_EFS: name: Amazon Elastic File System EFS
-Storage/Amazon-Elastic-File-System_EFS: url: https://aws.amazon.com/efs/
+Storage/Amazon-Elastic-Block-Store-EBS: name: Amazon Elastic Block Store EBS
+Storage/Amazon-Elastic-Block-Store-EBS: url: https://aws.amazon.com/ebs/
 Storage/Amazon-Elastic-File-System_EFS_File-system: name: Amazon Elastic File System EFS - File System
 Storage/Amazon-Elastic-File-System_EFS_File-system: url: https://aws.amazon.com/efs/
+Storage/Amazon-Elastic-File-System_EFS: name: Amazon Elastic File System EFS
+Storage/Amazon-Elastic-File-System_EFS: url: https://aws.amazon.com/efs/
 Storage/Amazon-FSx-for-Lustre: name: Amazon FSx for Lustre
 Storage/Amazon-FSx-for-Lustre: url: https://aws.amazon.com/fsx/lustre/
 Storage/Amazon-FSx-for-Windows-File-Server: name: Amazon FSx for Windows File Server
 Storage/Amazon-FSx-for-Windows-File-Server: url: https://aws.amazon.com/fsx/windows/
 Storage/Amazon-FSx: name: Amazon FSx
 Storage/Amazon-FSx: url: https://aws.amazon.com/fsx/
-Storage/Amazon-S3-Glacier: name: Amazon S3 Glacier
-Storage/Amazon-S3-Glacier: url: https://aws.amazon.com/glacier/
 Storage/Amazon-S3-Glacier_Archive: name: Amazon S3 Glacier - Archive
 Storage/Amazon-S3-Glacier_Archive: url: https://aws.amazon.com/glacier/
 Storage/Amazon-S3-Glacier_Vault: name: Amazon S3 Glacier - Vault
 Storage/Amazon-S3-Glacier_Vault: url: https://aws.amazon.com/glacier/
+Storage/Amazon-S3-Glacier: name: Amazon S3 Glacier
+Storage/Amazon-S3-Glacier: url: https://aws.amazon.com/glacier/
 Storage/Amazon-Simple--Storage-Service-S3: name: Amazon S3
 Storage/Amazon-Simple--Storage-Service-S3: url: https://aws.amazon.com/s3/
 Storage/Amazon-Simple-Storage-Service-S3_Bucket-with-Objects: name: Amazon S3 - Bucket with Objects
@@ -854,13 +920,16 @@ Storage/AWS-Snowball: name: AWS Snowball
 Storage/AWS-Snowball: url: https://aws.amazon.com/snowball/
 Storage/AWS-Snowmobile: name: AWS Snowmobile
 Storage/AWS-Snowmobile: url: https://aws.amazon.com/snowmobile/
-Storage/AWS-Storage-Gateway: name: AWS Storage Gateway
-Storage/AWS-Storage-Gateway: url: https://aws.amazon.com/storagegateway/
 Storage/AWS-Storage-Gateway_Cached-Volume: name: AWS Storage Gateway - Cached Volume
 Storage/AWS-Storage-Gateway_Cached-Volume: url: https://aws.amazon.com/storagegateway/
 Storage/AWS-Storage-Gateway_Non-Cached-Volume: name: AWS Storage Gateway - Non Cached Volume
 Storage/AWS-Storage-Gateway_Non-Cached-Volume: url: https://aws.amazon.com/storagegateway/
 Storage/AWS-Storage-Gateway_Virtual-Tape-Library: name: AWS Storage Gateway - Virtual Tape Library
 Storage/AWS-Storage-Gateway_Virtual-Tape-Library: url: https://aws.amazon.com/storagegateway/
+Storage/AWS-Storage-Gateway: name: AWS Storage Gateway
+Storage/AWS-Storage-Gateway: url: https://aws.amazon.com/storagegateway/
+Storage/CloudEndure-Disaster-Recovery: name: CloudEndure Disaster Recovery
+Storage/CloudEndure-Disaster-Recovery: url: https://aws.amazon.com/cloudendure-disaster-recovery/
+Storage/Multiple-volumes_Resource-Icon: name: Multiple Volumes
 Storage/Storage: name: Storage
 Storage/Storage: url: https://aws.amazon.com/products/storage/
