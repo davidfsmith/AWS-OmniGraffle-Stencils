@@ -50,7 +50,7 @@ Analytics/Amazon-EMR_EMR-engine-MapR-M7: name: Amazon EMR - EMR Engine MapR M7
 Analytics/Amazon-EMR_EMR-engine-MapR-M7: url: https://aws.amazon.com/emr/
 Analytics/Amazon-EMR_EMR-engine: name: Amazon EMR - EMR Engine
 Analytics/Amazon-EMR_EMR-engine: url: https://aws.amazon.com/emr/
-Analytics/Amazon-EMR_HDFS-cluster: name: Amazon EMR - Cluster
+Analytics/Amazon-EMR_HDFS-cluster: name: Amazon EMR - HDFS Cluster
 Analytics/Amazon-EMR_HDFS-cluster: url: https://aws.amazon.com/emr/
 Analytics/Amazon-EMR: name: Amazon EMR
 Analytics/Amazon-EMR: url: https://aws.amazon.com/emr/
@@ -88,7 +88,7 @@ Analytics/AWS-Glue: name: AWS Glue
 Analytics/AWS-Glue: url: https://aws.amazon.com/glue/
 Analytics/AWS-Lake-Formation: name: AWS Lake Formation
 Analytics/AWS-Lake-Formation: url: https://aws.amazon.com/lake-formation/
-Application Integration/Amazon-AppSync: name: Amazon AWS AppSync
+Application Integration/Amazon-AppSync: name: AWS AppSync
 Application Integration/Amazon-AppSync: url: https://aws.amazon.com/appsync/
 Application Integration/Amazon-EventBridge: name: Amazon EventBridge
 Application Integration/Amazon-EventBridge: url: https://aws.amazon.com/eventbridge/
@@ -774,7 +774,7 @@ Networking & Content Delivery/AWS-Direct-Connect: name: AWS Direct Connect
 Networking & Content Delivery/AWS-Direct-Connect: url: https://aws.amazon.com/directconnect/
 Networking & Content Delivery/AWS-Global-Accelerator: name: AWS Global Accelerator
 Networking & Content Delivery/AWS-Global-Accelerator: url: https://aws.amazon.com/global-accelerator/
-Networking & Content Delivery/AWS-PrivateLink: name: AWS PrivateLink
+Networking & Content Delivery/AWS-PrivateLink: name: AWS VPC PrivateLink
 Networking & Content Delivery/AWS-PrivateLink: url: https://aws.amazon.com/privatelink/
 Networking & Content Delivery/AWS-Site-to-Site-VPN: name: AWS Site-to-Site VPN
 Networking & Content Delivery/AWS-Site-to-Site-VPN: url: https://aws.amazon.com/vpn/
