@@ -17,7 +17,6 @@ create_stencil() {
 
     for eps in $(find "$AWS_DIR/$subdir" -name '*_light-bg.eps' | sort); do
         id=$(echo $eps | sed "s|^$AWS_DIR/||" | sed "s|_light-bg.eps$||")
-        echo "File id : $id"
         pdf="$OUTPUT_DIR/$subdir.gstencil/image$i.pdf"
         epstopdf "$eps" "$pdf"
 
@@ -26,7 +25,7 @@ create_stencil() {
         url=$(cat meta.txt | perl -ne 'print if s|'$id': url: (.*)$|\1|')
 
         if [ -z "$name" ]; then
-            echo "warning: missing meta for $id"
+            echo "WARNING: Missing meta for $id"
         fi
 
         images=$images'
@@ -84,8 +83,8 @@ create_stencil() {
     done
 
     image_count=$(($i-1))
-    
-    echo "image count $image_count"
+
+    echo "Stencil item count: $image_count"
 
     dict_1=""
     for i in $(seq 1 $image_count); do
@@ -439,7 +438,6 @@ echo "creating stencils in $OUTPUT_DIR ..."
 
 for d in $(find $AWS_DIR -type d -maxdepth 1 -mindepth 1); do
     d_short=$(basename "$d")
-    echo "working in $d_short"
+    echo "Directory: $d_short"
     create_stencil "$d_short"
 done
-

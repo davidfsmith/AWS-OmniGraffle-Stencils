@@ -5,17 +5,11 @@ If use OmniGraffle and AWS - these stencils are for you.
 
 Omnigraffle compatible versions of the [AWS simple icons](https://aws.amazon.com/architecture/icons/).
 
-## 20.01.31 Icons
-Light background icons have been converted.  Updated using [AWS-Architecture-Icons_EPS_20200430](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_SVG_20200131.abfc4fb34450d2294f8c65d2dcc9ea1602b6a449.zip)
-
-## 19.10.31 Icons
-Light background icons have been converted.  Updated using [AWS-Architecture-Icons_EPS_20191031](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_EPS_20191031.3a917b7e858e2db09050e5955901613869f11e16.zip)
-
-## 19.05.21 Icons
-Light background icons have been converted.  Updated using [AWS-Architecture-Icons_EPS_20190521](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_EPS_20190521.f77c8509c6bbaa17b8e508e11b507198d72d2f0b.zip)
+## 20.04.30 Icons
+Light background icons have been converted.  Created using [AWS-Architecture-Icons_EPS_20200430](https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_EPS_20200430.a8ee3992514c16602e1ead879f1bdceaf1c405a1.zip)
 
 ## 18.02.22 Icons
-Last updated using: [PNG,+SVG,+EPS_18.02.22.zip](https://s3-us-west-2.amazonaws.com/awswebanddesign/Architecture+Icons/AWS-Arch-Icon-Sets_Feb-18/PNG%2C+SVG%2C+EPS_18.02.22.zip)
+Created using: [PNG,+SVG,+EPS_18.02.22.zip](https://s3-us-west-2.amazonaws.com/awswebanddesign/Architecture+Icons/AWS-Arch-Icon-Sets_Feb-18/PNG%2C+SVG%2C+EPS_18.02.22.zip)
 
 # Using the stencils
 
@@ -37,26 +31,24 @@ Any problems, ommissions ot suggestions then feel free to either raise an [issue
 
 # Creating stencil files
 
-## Converting Icons
+## Converting Icons (OSX)
 
 ### Installing Dependencies
 
 	brew install xpdf
 	brew cask install mactex
-	
+
 Then install the Ghostscript package from [MacTex packages](http://www.tug.org/mactex/morepackages.html)
 
 ### Steps
 
-Download the latest AWS icons from [AWS simple icons](https://aws.amazon.com/architecture/icons/), unzip the file and then run:
+Download the latest AWS icons from [AWS simple icons](https://aws.amazon.com/architecture/icons/), unzip the file and then replace all instances of `&` with `and` in directories and filenames, then run `convert.sh` :
 
-	./convert.sh ~/Downloads/AWS-Architecture-Icons_EPS/Light-BG/ ./19.05.21
-	
+	./convert.sh ~/Downloads/AWS-Architecture-Icons_EPS_20200430/EPS\ Light 20.04.30
+
 Time passes....
 
 For images where there is no meta data you will need to update the `meta.txt` with the additional information.
-
-**Note:** The script is currently failing to automagically create valid stencil files and needs a good talking to, the 19.10.31 set were created manaully.
 
 # Finally
 
