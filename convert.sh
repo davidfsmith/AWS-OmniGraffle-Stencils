@@ -13,8 +13,11 @@ create_stencil() {
     subdir="$1"
     mkdir "$OUTPUT_DIR/$subdir.gstencil"
     i=1
+    images=""
+
     for eps in $(find "$AWS_DIR/$subdir" -name '*_light-bg.eps' | sort); do
         id=$(echo $eps | sed "s|^$AWS_DIR/||" | sed "s|_light-bg.eps$||")
+        echo "File id : $id"
         pdf="$OUTPUT_DIR/$subdir.gstencil/image$i.pdf"
         epstopdf "$eps" "$pdf"
 
@@ -80,8 +83,9 @@ create_stencil() {
         i=$(($i+1))
     done
 
-
     image_count=$(($i-1))
+    
+    echo "image count $image_count"
 
     dict_1=""
     for i in $(seq 1 $image_count); do
@@ -435,6 +439,7 @@ echo "creating stencils in $OUTPUT_DIR ..."
 
 for d in $(find $AWS_DIR -type d -maxdepth 1 -mindepth 1); do
     d_short=$(basename "$d")
+    echo "working in $d_short"
     create_stencil "$d_short"
 done
 
