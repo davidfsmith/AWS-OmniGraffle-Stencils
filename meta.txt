@@ -1,3 +1,4 @@
+_General/AWS-Email: name AWS Email
 _General/AWS-Marketplace: name: AWS Marketplace
 _General/AWS-Marketplace: url: https://aws.amazon.com/marketplace/
 _General/Client: name: Client
@@ -287,10 +288,14 @@ Compute/AWS-Thinkbox-Stoke: name: AWS Thinkbox Stoke
 Compute/AWS-Thinkbox-Stoke: url: https://www.awsthinkbox.com/stoke
 Compute/AWS-Wavelength: name: AWS Wavelength
 Compute/AWS-Wavelength: url: https://aws.amazon.com/wavelength/
+Compute/Bottlerocket: name: Bottlerocket
+Compute/Bottlerocket: url: https://aws.amazon.com/bottlerocket/
 Compute/Compute: name: Compute
 Compute/Compute: url: https://aws.amazon.com/products/compute/
 Compute/EC2-Image-Builder: name: EC2 Image Builder
 Compute/EC2-Image-Builder: url:https://aws.amazon.com/image-builder/
+Compute/Parallel-Cluster: name: AWS ParallelCluster
+Compute/Parallel-Cluster: url: https://aws.amazon.com/hpc/parallelcluster/
 Compute/VMware-Cloud-On-AWS: name: VMware Cloud On AWS
 Compute/VMware-Cloud-On-AWS: url: https://aws.amazon.com/vmware/
 Customer Enablement/AWS-IQ: name: AWS IQ
@@ -526,6 +531,8 @@ Internet of Things/IoT_Windfarm: name: IoT Windfarm Thing
 Internet of Things/IoT_Windfarm: url: https://aws.amazon.com/iot/
 Machine Learning/Amazon-Augmented-AI: name: Amazon Augmented AI (Amazon A2I)
 Machine Learning/Amazon-Augmented-AI: url: https://aws.amazon.com/augmented-ai/
+Machine Learning/Amazon-CodeGuru: name: Amazon CodeGuru
+Machine Learning/Amazon-CodeGuru: url: https://aws.amazon.com/codeguru/
 Machine Learning/Amazon-Comprehend: name: Amazon Comprehend
 Machine Learning/Amazon-Comprehend: url: https://aws.amazon.com/comprehend/
 Machine Learning/Amazon-Elastic-Inference: name: Amazon Elastic Inference
@@ -592,6 +599,8 @@ Management and Governance/Amazon-CloudWatch: name: Amazon CloudWatch
 Management and Governance/Amazon-CloudWatch: url: https://aws.amazon.com/cloudwatch/
 Management and Governance/Amazon-CodeGuru: name: Amazon CodeGuru
 Management and Governance/Amazon-CodeGuru: url: https://aws.amazon.com/codeguru/
+Management and Governance/AWS-App-Config: name: AWS Systems Manager - AppConfig
+Management and Governance/AWS-App-Config: url: https://aws.amazon.com/systems-manager/
 Management and Governance/AWS-Auto-Scaling: name: AWS Auto Scaling
 Management and Governance/AWS-Auto-Scaling: url: https://aws.amazon.com/autoscaling/
 Management and Governance/AWS-CloudFormation_Change-Set: name: AWS CloudFormation - Change Set
@@ -726,6 +735,14 @@ Migration and Transfer/AWS-Snowball: name: AWS Snowball
 Migration and Transfer/AWS-Snowball: url: https://aws.amazon.com/snowball/
 Migration and Transfer/AWS-Snowmobile: name: AWS Snowmobile
 Migration and Transfer/AWS-Snowmobile: url: https://aws.amazon.com/snowmobile/
+Migration and Transfer/AWS-Transfer-Family: name: AWS Transfer Family
+Migration and Transfer/AWS-Transfer-Family: url: https://aws.amazon.com/aws-transfer-family/
+Migration and Transfer/AWS-Transfer-for-FTP_Resource-Icon: name: AWS Transfer Family - FTP
+Migration and Transfer/AWS-Transfer-for-FTP_Resource-Icon: url: https://aws.amazon.com/aws-transfer-family/
+Migration and Transfer/AWS-Transfer-for-FTPS_Resource-Icon: name: AWS Transfer Family - FTPS
+Migration and Transfer/AWS-Transfer-for-FTPS_Resource-Icon: url: https://aws.amazon.com/aws-transfer-family/
+Migration and Transfer/AWS-Transfer-for-SFTP_Resource-Icon: name: AWS Transfer Family - SFTP
+Migration and Transfer/AWS-Transfer-for-SFTP_Resource-Icon: url: https://aws.amazon.com/aws-transfer-family/
 Migration and Transfer/AWS-Transfer-for-SFTP: name: AWS Transfer for SFTP
 Migration and Transfer/AWS-Transfer-for-SFTP: url: https://aws.amazon.com/sftp/
 Migration and Transfer/Migration-and-Transfer: name: Migration and Transfer
@@ -866,6 +883,8 @@ Security, Identity, and Compliance/AWS-Firewall-Manager: name: AWS Firewall Mana
 Security, Identity, and Compliance/AWS-Firewall-Manager: url: https://aws.amazon.com/firewall-manager/
 Security, Identity, and Compliance/AWS-Identity-and--Access-Management_IAM: name: AWS IAM
 Security, Identity, and Compliance/AWS-Identity-and--Access-Management_IAM: url: https://aws.amazon.com/iam/
+Security, Identity, and Compliance/AWS-Identity-and-Access-Management-IAM_Access-Analyzer: name: AWS IAM - Access Analysis
+Security, Identity, and Compliance/AWS-Identity-and-Access-Management-IAM_Access-Analyzer: url: https://aws.amazon.com/iam/
 Security, Identity, and Compliance/AWS-Identity-and-Access-Management-IAM_Add-on: name: AWS IAM - Addon
 Security, Identity, and Compliance/AWS-Identity-and-Access-Management-IAM_Add-on: url: https://aws.amazon.com/iam/
 Security, Identity, and Compliance/AWS-Identity-and-Access-Management-IAM_AWS-STS-Alternate: name: AWS IAM - STS Alternate
@@ -954,10 +973,16 @@ Storage/AWS-Snowmobile: name: AWS Snowmobile
 Storage/AWS-Snowmobile: url: https://aws.amazon.com/snowmobile/
 Storage/AWS-Storage-Gateway_Cached-Volume: name: AWS Storage Gateway - Cached Volume
 Storage/AWS-Storage-Gateway_Cached-Volume: url: https://aws.amazon.com/storagegateway/
+Storage/AWS-Storage-Gateway_File-Gateway: name: AWS Storage Gateway - File Gateway
+Storage/AWS-Storage-Gateway_File-Gateway: url: https://aws.amazon.com/storagegateway/file/
 Storage/AWS-Storage-Gateway_Non-Cached-Volume: name: AWS Storage Gateway - Non Cached Volume
 Storage/AWS-Storage-Gateway_Non-Cached-Volume: url: https://aws.amazon.com/storagegateway/
+Storage/AWS-Storage-Gateway_Tape-Gateway: name: AWS Storage Gateway - Tape Gateway
+Storage/AWS-Storage-Gateway_Tape-Gateway: url: https://aws.amazon.com/storagegateway/vtl/
 Storage/AWS-Storage-Gateway_Virtual-Tape-Library: name: AWS Storage Gateway - Virtual Tape Library
 Storage/AWS-Storage-Gateway_Virtual-Tape-Library: url: https://aws.amazon.com/storagegateway/
+Storage/AWS-Storage-Gateway_Volume-Gateway: name: AWS Storage Gateway - Volume Gateway
+Storage/AWS-Storage-Gateway_Volume-Gateway: url: https://aws.amazon.com/storagegateway/volume/
 Storage/AWS-Storage-Gateway: name: AWS Storage Gateway
 Storage/AWS-Storage-Gateway: url: https://aws.amazon.com/storagegateway/
 Storage/CloudEndure-Disaster-Recovery: name: CloudEndure Disaster Recovery
