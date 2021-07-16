@@ -36,7 +36,7 @@ Any problems, ommissions ot suggestions then feel free to either raise an [issue
 ### Installing Dependencies
 
 	brew install xpdf
-	brew cask install mactex
+	brew install --cask mactex
 
 Then install the Ghostscript package from [MacTex packages](http://www.tug.org/mactex/morepackages.html)
 
