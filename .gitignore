@@ -3,3 +3,13 @@
 .AppleDouble
 .LSOverride
 .fuse*
+
+# Python
+__pycache__/
+*.pyc
+
+# Raw AWS icon downloads (source art; only the generated .gstencil sets are tracked).
+# Remove this line if you'd rather commit the source pack for reproducibility.
+aws-source-2026/
+AWS-Architecture-Icons_*/
+Asset-Package_*/
