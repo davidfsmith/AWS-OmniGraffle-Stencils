@@ -90,7 +90,7 @@ That's it. Useful options:
 	./convert.py aws-source-2026 26.04.30 --service-size 48 --category-size 32
 
 The combined stencil contains the same 812 icons as the per-category sets, just
-gathered into a single file (it's ~3&nbsp;MB and duplicates the artwork, so it's
+gathered into a single file (it's ~1.7&nbsp;MB and duplicates the artwork, so it's
 opt-in rather than built by default).
 
 Light icons are used by default; the `_Dark` variants are skipped.
